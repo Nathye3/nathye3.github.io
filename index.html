@@ -1,56 +1,111 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Muhamad Maulana Febrian</title>
-  <link rel="stylesheet" href="Portofolio/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="profile-card">
-    <div class="header">
-      <img src="Portofolio/Pas Foto.jpg" alt="Profile Picture" class="profile-pic">
-      <div class="name-title">
-        <h1>Muhamad Maulana Febrian</h1>
-        <p>Mahasiswa Universitas Logistik & Bisnis Internasional</p>
-      </div>
-    </div>
-    
-    <div class="section">
-      <h2>Tentang Saya</h2>
-      <p>Saya lulusan SMK TI Garuda Cimahi Dengan Jurusan Multimedia tahun ajaran 2022/2023, hobi saya adalah mendengarkan musik dan juga menggambar dan saya juga pernah mengikuti PKL Di Percetakan Doset. Saya selalu ingin tahu hal-hal baru.</p>
-    </div>
-    
-    <div class="info-section">
-      <div class="info-column">
-        <h3>Data Pribadi</h3>
-        <p><strong>NIM:</strong> 714240053</p>
-        <p><strong>WhatsApp:</strong> +62 87735318207</p>
-        <p><strong>Email:</strong> maulanafebrian188@gmail.com</p>
-        <p><strong>Alamat:</strong> Jl. Swadaya 2, No. 140</p>
-        <p><strong>Instagram:</strong> @Akalyn_48</p>
-        
-        <h3>Pendidikan</h3>
-        <p>SMK TI Garuda Cimahi (2020 - 2023)<br>Jurusan Multimedia</p>
-      </div>
-      
-      <div class="info-column">
-        <h3>Pengalaman Organisasi</h3>
-        <ul>
-          <li>Bimbingan Fisik Dan Mental selama 3 bulan yang dilaksanakan oleh TNI AD</li>
-          <li>Mengikuti Eskul Basket</li>
-          <li>Mengkuti Eskul Badminton</li>
-        </ul>
-        
-        <h3>Keterampilan</h3>
-        <ul>
-          <li>Menggunakan Canva</li>
-          <li>Menggunakan Capcut</li>
-          <li>Menggunakan Word</li>
-          <li>Menggunakan Corel Draw X7</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-wide">My Portfolio</div>
+            <div class="hidden md:flex gap-6 items-center">
+                <a href="#Tentang" class="hover:text-blue-600">Tentang</a>
+                <a href="#pendidikan" class="hover:text-blue-600">Pendidikan</a>
+                <a href="#Kemampuan" class="hover:text-blue-600">Kemampuan</a>
+                <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-bold mb-4">Hello, I'm Maulana </h1>
+            <p class="max-w-2xl mx-auto text-lg">A passionate creating impactful digital experiences.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="Tentang" class="container mx-auto px-6 py-16 text-center">
+        <h2 class="text-4xl font-bold mb-8">Tentang Saya</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">"Saya adalah seorang desainer grafis dan pengembang web yang bersemangat dalam menciptakan pengalaman digital yang menarik. Dengan keahlian dalam Corel Draw, Microsoft Word, HTML, CSS, dan JavaScript, saya selalu berusaha untuk mengembangkan keterampilan saya lebih jauh. Saya percaya bahwa desain yang baik tidak hanya estetis tetapi juga fungsional dan intuitif.".</p>
+    </section>
+
+    <!-- Pendidikan Section -->
+    <section id="pendidikan" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-8">Latar Pendidikan</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">SD</h3>
+                    <p class="text-gray-600">Saya bersekolah di SDN Harapan 1 Kota Cimahi.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">SMP</h3>
+                    <p class="text-gray-600">Saya bersekolah di SMP PGRI 1 Kota Cimahi.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">SMK</h3>
+                    <p class="text-gray-600">Saya bersekolah di SMk TI Garuda Nusantara dengan jurusan Multimedia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Kemampuan" class="container mx-auto px-6 py-16 text-center">
+        <h2 class="text-4xl font-bold mb-8">My Skills</h2>
+        <p class="text-gray-600 max-w-3xl mx-auto">Here are some of the technologies and skills I specialize in:</p>
+        <div class="max-w-lg mx-auto mt-6 p-6 bg-white shadow-lg rounded-lg">
+            <div class="mb-4">
+                <p class="font-bold">Corel Draw (70%)</p>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="font-bold">Microsoft Word (80%)</p>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="font-bold">HTML (50%)</p>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="font-bold">CSS (30%)</p>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 30%;"></div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="font-bold">JavaScript (10%)</p>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 10%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-600 text-white py-16 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+            <p class="text-lg max-w-2xl mx-auto mb-6">Have a project in mind? Feel free to reach out!</p>
+            <a href="https://www.instagram.com/akalyn_48/" class="bg-white text-blue-600 px-8 py-3 rounded-full text-lg font-bold hover:bg-gray-200 transition">Click This</a>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>&copy; 2025 Muhammad Maulana Febrian. All rights reserved.</p>
+    </footer>
 </body>
 </html>
